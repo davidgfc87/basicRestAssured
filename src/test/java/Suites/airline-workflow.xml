@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SUITE FOR DEMO" verbose="1">
+    <listeners>
+        <listener class-name="Common.TestListener" />
+    </listeners>
+    <test name="Airline Workflow">
+        
+        <classes>
+            <class name="Tests.AirlineTests" >
+                <!-- Specific classes can be set here -->
+            </class>
+        </classes>
+    </test>
+</suite>
